@@ -1,0 +1,38 @@
+[
+  {
+    "id": "first_rep",
+    "name": "First Rep",
+    "description": "Log your first workout. The journey begins.",
+    "icon": "🏅"
+  },
+  {
+    "id": "week_warrior",
+    "name": "Week Warrior",
+    "description": "Maintain a 7-day streak.",
+    "icon": "🔥"
+  },
+  {
+    "id": "month_monster",
+    "name": "Month Monster",
+    "description": "Maintain a 30-day streak.",
+    "icon": "🐺"
+  },
+  {
+    "id": "century_club",
+    "name": "Century Club",
+    "description": "Log 100 total workouts.",
+    "icon": "💯"
+  },
+  {
+    "id": "iron_will",
+    "name": "Iron Will",
+    "description": "Lift 10,000 kg total volume in a single workout.",
+    "icon": "🏋️‍♂️"
+  },
+  {
+    "id": "early_bird",
+    "name": "Early Bird",
+    "description": "Log 5 workouts before 8 AM.",
+    "icon": "🌅"
+  }
+]
