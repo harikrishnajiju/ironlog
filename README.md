@@ -7,7 +7,7 @@
 ---
 
 ## 🚀 Live Deployment
-**Service URL:** [Deploying...] <!-- Will be updated after Cloud Run deployment -->
+**Service URL:** [https://ironlog-570043891458.us-central1.run.app](https://ironlog-570043891458.us-central1.run.app)
 
 ---
 

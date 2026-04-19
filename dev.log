@@ -29,3 +29,176 @@
 
  ✓ Starting...
  ✓ Ready in 1112ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.6s (1858 modules)
+ ✓ Compiled in 150ms (799 modules)
+Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [400 Bad Request] API key expired. Please renew the API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key expired. Please renew the API key."}]
+    at handleResponseNotOk (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:455:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async makeRequest (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:424:9)
+    at async generateContent (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:888:22)
+    at async $$ACTION_0 (webpack-internal:///(action-browser)/./src/lib/gemini.ts:30:24)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:418
+    at async rk (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:8148)
+    at async r3 (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1256)
+    at async doRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1413:30)
+    at async cacheEntry.responseCache.get.routeKind (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1574:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1482:28)
+    at async DevServer.renderPageComponent (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1908:24)
+    at async DevServer.renderToResponseImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1946:32)
+    at async DevServer.pipeImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:817:17)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/harikrishna/Development/ironlog/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key expired. Please renew the API key.'
+    }
+  ]
+}
+ POST /dashboard 200 in 192ms
+Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [400 Bad Request] API key expired. Please renew the API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key expired. Please renew the API key."}]
+    at handleResponseNotOk (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:455:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async makeRequest (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:424:9)
+    at async generateContent (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:888:22)
+    at async $$ACTION_1 (webpack-internal:///(action-browser)/./src/lib/gemini.ts:49:24)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:418
+    at async rk (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:8148)
+    at async r3 (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1256)
+    at async doRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1413:30)
+    at async cacheEntry.responseCache.get.routeKind (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1574:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1482:28)
+    at async DevServer.renderPageComponent (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1908:24)
+    at async DevServer.renderToResponseImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1946:32)
+    at async DevServer.pipeImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:817:17)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/harikrishna/Development/ironlog/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key expired. Please renew the API key.'
+    }
+  ]
+}
+ POST /dashboard 200 in 200ms
+Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [400 Bad Request] API key expired. Please renew the API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key expired. Please renew the API key."}]
+    at handleResponseNotOk (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:455:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async makeRequest (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:424:9)
+    at async generateContent (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:888:22)
+    at async $$ACTION_0 (webpack-internal:///(action-browser)/./src/lib/gemini.ts:30:24)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:418
+    at async rk (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:8148)
+    at async r3 (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1256)
+    at async doRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1413:30)
+    at async cacheEntry.responseCache.get.routeKind (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1574:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1482:28)
+    at async DevServer.renderPageComponent (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1908:24)
+    at async DevServer.renderToResponseImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1946:32)
+    at async DevServer.pipeImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:817:17)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/harikrishna/Development/ironlog/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key expired. Please renew the API key.'
+    }
+  ]
+}
+ POST /dashboard 200 in 174ms
+Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [400 Bad Request] API key expired. Please renew the API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key expired. Please renew the API key."}]
+    at handleResponseNotOk (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:455:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async makeRequest (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:424:9)
+    at async generateContent (webpack-internal:///(action-browser)/./node_modules/@google/generative-ai/dist/index.mjs:888:22)
+    at async $$ACTION_1 (webpack-internal:///(action-browser)/./src/lib/gemini.ts:49:24)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:418
+    at async rk (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:8148)
+    at async r3 (/Users/harikrishna/Development/ironlog/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1256)
+    at async doRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1413:30)
+    at async cacheEntry.responseCache.get.routeKind (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1574:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1482:28)
+    at async DevServer.renderPageComponent (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1908:24)
+    at async DevServer.renderToResponseImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:1946:32)
+    at async DevServer.pipeImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/base-server.js:817:17)
+    at async /Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/harikrishna/Development/ironlog/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/Users/harikrishna/Development/ironlog/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key expired. Please renew the API key.'
+    }
+  ]
+}
+ POST /dashboard 200 in 235ms
+ ○ Compiling /log ...
+ ✓ Compiled /log in 993ms (2994 modules)
+ ✓ Compiled /_not-found in 108ms (2997 modules)
+ GET /history 404 in 70ms
+ GET /dashboard 200 in 62ms
+ ✓ Compiled /profile in 143ms (3003 modules)
